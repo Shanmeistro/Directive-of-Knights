@@ -1,0 +1,55 @@
+📁 Directive-of-Knights (Root Directory)
+│
+├── 📁 Assets
+│   ├── 📁 Art
+│   │   ├── 📁 Models          # 3D models and meshes
+│   │   ├── 📁 Textures        # All textures used in models and environments
+│   │   └── 📁 Materials       # Materials and shaders for environmental assets
+│   │
+│   ├── 📁 Audio
+│   │   ├── 📁 Music           # Background music, soundtracks
+│   │   ├── 📁 SFX             # Sound effects like gunfire, footsteps, etc.
+│   │   └── 📁 Voice           # Voiceovers for characters, dialogues
+│   │
+│   ├── 📁 Prefabs
+│   │   ├── 📁 Characters      # Player and NPC character prefabs
+│   │   ├── 📁 Environment     # Buildings, trees, destructible props, etc.
+│   │   └── 📁 Props           # Smaller objects, weapons, items
+│   │
+│   ├── 📁 Scenes
+│   │   ├── 📁 Levels          # Scene files for each level or mission
+│   │   └── 📁 UI              # Scenes or canvases specifically for UI
+│   │
+│   ├── 📁 Scripts
+│   │   ├── 📁 Characters      # Player, NPC, and enemy character scripts
+│   │   ├── 📁 AI              # AI behavior, pathfinding, and decision-making
+│   │   ├── 📁 Mechanics       # Core mechanics like combat, stealth, and cover
+│   │   ├── 📁 UI              # Scripts for HUD, menus, and other UI elements
+│   │   └── 📁 Utilities       # Helper classes, data management, and tools
+│   │
+│   ├── 📁 Animation
+│   │   ├── 📁 Animations      # Animation files for characters and objects
+│   │   └── 📁 Controllers     # Animator Controllers for characters
+│   │
+│   ├── 📁 UI
+│   │   ├── 📁 Icons           # Icons for weapons, objectives, and HUD
+│   │   ├── 📁 HUD             # Heads-up display elements
+│   │   └── 📁 Menus           # Main menu, pause menu, mission briefings
+│   │
+│   ├── 📁 Resources           # For dynamically loaded assets like levels or sound
+│   └── 📁 Plugins             # External plugins (Odin Inspector, Final IK, etc.)
+│
+├── 📁 ProjectSettings         # Unity-generated project settings
+│
+├── 📁 Packages                # Packages folder for Unity Package Manager dependencies
+│
+├── 📁 Docs                    # Project documentation
+│   ├── Design.md              # Game design document (GDD)
+│   ├── Mechanics.md           # Detailed breakdown of game mechanics
+│   └── AssetsList.md          # Inventory of assets to be created
+│
+├── 📁 Build                   # Built executable files for testing (add to .gitignore)
+│
+├── .gitignore                 # Git ignore file to exclude unnecessary files
+├── README.md                  # Basic project overview and instructions
+└── LICENSE.md                 # License file, if needed
